@@ -31,7 +31,7 @@ import SeniorAbout from './pages/SeniorAbout.jsx'
 import Contact from './components/ContactUs.jsx'
 import ConnectUs from './components/ConnectUs.jsx'
 
-export const serverUrl = "https://virtual-campus-sx7r.onrender.com/"
+export const serverUrl = "https://backend-bysg.onrender.com"
 
 const App = () => {
   getCurrentUser();
