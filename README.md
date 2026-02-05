@@ -4,7 +4,7 @@ One-stop platform for B.Tech students to access notes, solve DSA, and connect wi
 
 Virtual Campus is a MERN Stack based web platform designed to help engineering students manage academics, coding practice, and mentorship in a single place.
 
-Most students face problems like:
+Problems Faced by Students
 
 Difficulty finding reliable study materials
 
@@ -12,9 +12,11 @@ Lack of proper internship and placement guidance
 
 No direct interaction with experienced seniors
 
-No platform combining academics + coding + mentorship
+No single platform combining academics + coding + mentorship
 
-Virtual Campus solves all these problems through a single centralized system.
+Solution
+
+Virtual Campus solves all these problems through a centralized, structured, and student-friendly ecosystem.
 
 🎯 Project Objective
 
@@ -39,9 +41,9 @@ Easy access to verified content
 
 One coding problem every day
 
-Helps in improving problem-solving skills
+Improves problem-solving ability
 
-Builds consistency in coding
+Builds coding consistency
 
 👨‍🏫 Senior–Junior Mentorship System
 
@@ -61,7 +63,9 @@ Career roadmap
 
 Simple and clean UI
 
-Easy navigation and search functionality
+Easy navigation
+
+Fast search functionality
 
 💡 Problem It Solves
 
@@ -79,7 +83,7 @@ This platform brings everything together under one roof.
 
 🧩 Business Model
 
-The platform follows a scalable model:
+The platform follows a scalable and sustainable model:
 
 Free access to study materials
 
@@ -105,34 +109,19 @@ Virtual Campus helps in:
 
 🛠 Technology Stack (MERN)
 
-This project is built using the MERN Stack:
+This project is built using the MERN Stack
 
-Frontend:
-
-React.js
-
-  Tailwind CSS
-
-Backend:
-
-Node.js
-
-Express.js
-
-Database:
-
-MongoDB
-
-Tools & Hosting:
-
-Git & GitHub
-
-Render (Deployment)
-
+Layer	Technology
+Frontend	React.js, Tailwind CSS
+Backend	Node.js, Express.js
+Database	MongoDB
+Version Control	Git & GitHub
+Deployment	Render
 🌐 Live Project
 
 🔗 Website URL:
 https://virtual-campus-mh5g.onrender.com/
+
 
 🔮 Future Enhancements
 
@@ -151,8 +140,9 @@ Internship portal integration
 👨‍💻 Developer
 
 Akhilesh Verma
-B.Tech – Computer Science & Engineering with Specialization in Artificial Intelligence and Machine Learning
-JSS Academy of Technical Education, Noida-201301
+B.Tech – Computer Science & Engineering
+(Specialization in AI & ML)
+JSS Academy of Technical Education, Noida – 201301
 
 🙏 Conclusion
 
