@@ -1,47 +1,3 @@
-// import express from 'express'
-// import dotenv from 'dotenv'
-// import connectDb from './config/connectDB.js'
-// import cookieParser from 'cookie-parser'
-// import authRouter from './route/authRoute.js'
-// import userRouter from './route/userRoute.js'
-// import courseRouter from './route/courseRoute.js'
-// import cors from 'cors'
-// import paymentRouter from './route/paymentRoute.js'
-// import reviewRouter from './route/reviewRoute.js'
-// dotenv.config()
-
-// const port = process.env.PORT || 8000
-// const app = express()
-
-// app.use(express.json())
-// app.use(cookieParser())
-
-// app.use(cors({
-//   origin: 'https://virtual-campus-xqq5.onrender.com', // your frontend
-//   credentials: true, // allow cookies/auth headers
-// }));
-
-// //apis
-// app.use("/api/auth", authRouter)
-// app.use("/api/user", userRouter)
-// app.use("/api/course", courseRouter)
-// app.use("/api/order", paymentRouter)
-// app.use("/api/review", reviewRouter)
-
-// app.get('/', (req, res) => {
-//   res.send('Hello from Server!')
-// })
-
-// // ✅ Test route to check if backend is running
-// app.get("/api/test", (req, res) => {
-//   res.json({ message: "Backend is working 🚀" });
-// });
-
-// app.listen(port, () => {
-//   connectDb()
-//   console.log(`Server is running on port ${port}`)
-// })
-
 import express from 'express'
 import dotenv from 'dotenv'
 import connectDb from './config/connectDB.js'
@@ -67,7 +23,7 @@ const app = express()
 
 // ✅ CORS Configuration — must come before routes
 app.use(cors({
-  origin: ['https://virtual-campus-xqq5.onrender.com'], // your frontend domain
+  origin: ['https://frontend-cmif.onrender.com'], // your frontend domain
   credentials: true, // allow cookies and Authorization headers
 }))
 
