@@ -29,7 +29,7 @@ app.use(cors({
 
 // ✅ Handle all preflight (OPTIONS) requests (Express v5 compatible)
 app.options(/.*/, cors({
-  origin: ['https://virtual-campus-xqq5.onrender.com'],
+  origin: ['https://frontend-cmif.onrender.com'],
   credentials: true,
 }))
 
