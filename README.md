@@ -141,14 +141,14 @@ cd virtual-campus
 #### Frontend Setup
 
 ```bash
-cd client
+cd frontend
 npm install
 ```
 
 #### Backend Setup
 
 ```bash
-cd ../server
+cd backend
 npm install
 ```
 
@@ -161,7 +161,7 @@ Create a `.env` file in the server folder:
 ```
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
-PORT=5000
+PORT=8000
 ```
 
 ---
@@ -171,14 +171,13 @@ PORT=5000
 #### Start Backend
 
 ```bash
-npm start
+npm run dev
 ```
 
 #### Start Frontend
 
 ```bash
-cd ../client
-npm start
+npm run dev
 ```
 
 ---
