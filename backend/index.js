@@ -23,13 +23,13 @@ const app = express()
 
 // ✅ CORS Configuration — must come before routes
 app.use(cors({
-  origin: ['https://frontend-cmif.onrender.com'], // your frontend domain
+  origin: ['https://virtual-campus-mh5g.onrender.com'], // your frontend domain
   credentials: true, // allow cookies and Authorization headers
 }))
 
 // ✅ Handle all preflight (OPTIONS) requests (Express v5 compatible)
 app.options(/.*/, cors({
-  origin: ['https://frontend-cmif.onrender.com'],
+  origin: ['https://virtual-campus-mh5g.onrender.com'],
   credentials: true,
 }))
 
