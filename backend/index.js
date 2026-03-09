@@ -12,11 +12,11 @@ import cors from 'cors'
 dotenv.config()
 
 // ✅ Disable console logs in production
-if (process.env.NODE_ENV === 'production') {
-  console.log = function () {}
-  console.warn = function () {}
-  console.error = function () {}
-}
+// if (process.env.NODE_ENV === 'production') {
+//   console.log = function () {}
+//   console.warn = function () {}
+//   console.error = function () {}
+// }
 
 const port = process.env.PORT || 8000
 const app = express()
