@@ -12,11 +12,11 @@ import cors from 'cors'
 dotenv.config()
 
 // ✅ Disable console logs in production
-// if (process.env.NODE_ENV === 'production') {
-//   console.log = function () {}
-//   console.warn = function () {}
-//   console.error = function () {}
-// }
+if (process.env.NODE_ENV === 'production') {
+  console.log = function () {}
+  console.warn = function () {}
+  console.error = function () {}
+}
 
 const port = process.env.PORT || 8000
 const app = express()
@@ -54,14 +54,7 @@ app.get('/api/test', (req, res) => {
 })
 
 // ✅ Start server
-// app.listen(port, () => {
-//   connectDb()
-//   console.log(`✅ Server running on port ${port}`)
-// })
-connectDb().then(() => {
-  app.listen(port, () => {
-    console.log(`✅ Server running on port ${port}`)
-  })
-}).catch((err) => {
-  console.error("❌ Failed to connect DB:", err)
+app.listen(port, () => {
+  connectDb()
+  console.log(`✅ Server running on port ${port}`)
 })
