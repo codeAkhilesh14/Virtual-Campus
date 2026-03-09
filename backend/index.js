@@ -54,7 +54,14 @@ app.get('/api/test', (req, res) => {
 })
 
 // ✅ Start server
-app.listen(port, () => {
-  connectDb()
-  console.log(`✅ Server running on port ${port}`)
+// app.listen(port, () => {
+//   connectDb()
+//   console.log(`✅ Server running on port ${port}`)
+// })
+connectDb().then(() => {
+  app.listen(port, () => {
+    console.log(`✅ Server running on port ${port}`)
+  })
+}).catch((err) => {
+  console.error("❌ Failed to connect DB:", err)
 })
